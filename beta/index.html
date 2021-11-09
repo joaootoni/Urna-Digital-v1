@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna Brasileira</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <audio id="audioClick" src="src/som-confirma-mp3cut.wav"></audio>
+    <audio id="audioConfirma" src="src/confirma-urna.wav"></audio>
+    <div class="corpoUrna"></div>
+    <div class="telaUrna">
+        <div class="idPrefeito">
+            <t><i>PRESIDENTE</i></t>
+        </div>
+        <div class="displayVoto">
+            <form action="">
+                <input size="1" id="campo1" value="" maxlength="1" type="text" readonly='readonly'>
+                <input size="1" id="campo2" value="" maxlength="1" type="text" readonly='readonly'>
+            </form>
+        </div>
+
+    </div>
+    <div class="idCandidato">
+        <strong>
+            <p id="nome"><strong>Nome:</strong></p>
+        </strong>
+        <strong>
+            <p id="partido"><strong>Partido:</strong></p>
+            </p>
+        </strong>
+        <strong>
+            <p id="vice"><strong>Vice-Presidente(a):</p>
+        </strong></p></strong>
+    </div>
+    </div>
+    <div class="tecladoUrna">
+        <div class="grid-container">
+            <div class="grid-item">
+                <input type="button" onclick="inserir(1)" class="btn-numerico" value="1">
+            </div>
+            <div class="grid-item">
+                <input type="button" onclick="inserir(2)" class="btn-numerico" value="2">
+            </div>
+            <div class="grid-item">
+                <input type="button" onclick="inserir(3)" class="btn-numerico" value="3">
+            </div>
+            <div class="grid-item">
+                <input type="button" onclick="inserir(4)" class="btn-numerico" value="4">
+            </div>
+            <div class="grid-item">
+                <input type="button" onclick="inserir(5)" class="btn-numerico" value="5">
+            </div>
+            <div class="grid-item">
+                <input type="button" onclick="inserir(6)" class="btn-numerico" value="6">
+            </div>
+            <div class="grid-item">
+                <input type="button" onclick="inserir(7)" class="btn-numerico" value="7">
+            </div>
+            <div class="grid-item">
+                <input type="button" onclick="inserir(8)" class="btn-numerico" value="8">
+            </div>
+            <div class="grid-item">
+                <input type="button" onclick="inserir(9)" class="btn-numerico" value="9">
+            </div>
+        </div>
+        <div class="grid-item">
+            <input type="button" onclick="inserir(0)" class="btn-numerico" value="0">
+        </div>
+        <div class="grid-containe">
+            <input class="btn_acoes" id="branco" type="button" value="BRANCO">
+            <input class="btn_acoes" id="corrige" onclick="corrige()" type="button" value="CORRIGE">
+            <input class="btn_acoes" id="confirma" onclick="confirmarCand()" ondblclick="confirmar()" type="button"
+                value="CONFIRMA">
+
+
+        </div>
+
+
+    </div>
+    <div class="telaCandidato_1"> <img id="imgCand" src="" alt=""> </div>
+    <!-- <div class="telaCandidato_2"></div> -->
+    <div class="telaDescricao"></div>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

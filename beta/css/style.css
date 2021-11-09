@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+	padding: 0;
+	border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.corpoUrna {
+    position: absolute;
+    width: 1308px;
+    height: 684px;
+    left: 66px;
+    top: 88px;
+    background: #8f8c8c;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+.telaUrna {
+    position: absolute;
+    width: 703px;
+    height: 558px;
+    left: 155px;
+    top: 150px;
+    background-color: rgb(207, 205, 205);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px gray;
+}
+.tecladoUrna {
+    position: absolute;
+    width: 413px;
+    height: 558px;
+    left: 922px;
+    top: 150px;
+    background: #514D4D;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 18px;
+    box-shadow: 2px 2px 5px gray;
+}
+.telaCandidato_1 {
+    position: absolute;
+    width: 160px;
+    height: 196px;
+    left: 697px;
+    top: 151px;
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+.telaCandidato_2 {
+    position: absolute;
+    width: 160px;
+    height: 196px;
+    left: 697px;
+    top: 344px;
+    background: #C4C4C4;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+.btn_corrige {
+    position: absolute;
+    width: 115px;
+    height: 55px;
+    left: 145px;
+    top: 450px;
+    background-color: rgb(214, 55, 55);
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 47px;
+}
+.btn_confirma {
+    position: absolute;
+    width: 115px;
+    height: 55px;
+    left: 280px;
+    top: 450px;
+    background-color: green;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.btn_branco {
+    position: absolute;
+    width: 115px;
+    height: 55px;
+    left: 10px;
+    top: 450px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.idCandidato {
+    position: absolute;
+    top: 50vh;
+    left: 20vh;
+    font-size: 20px
+}
+.idPrefeito {
+    position: absolute;
+    top: 10vh;
+    left: 20vh;
+    font-size: 30px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    height: 60%;
+    align-items: center;   
+}
+.grid-item {
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: flex;
+    display: flex;   
+}
+.btn-numerico {
+    font-size: 20px;
+    width: 95px;
+    height: 70px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.grid-containe {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    height: 10%;
+    margin: 20px;
+}
+.btn_acoes {
+    text-align: center;
+    justify-content: center;
+    align-items: flex;
+    display: flex; 
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+input#confirma {
+    background-color: green;
+}
+input#branco {
+    background-color: honeydew;
+}
+input#corrige {
+    background-color: red;
+}
+.displayVoto {
+    position: absolute;
+    left: 30vh;
+    top: 20vh;
+}
+.displayVoto input {
+    border-style: inset;
+    height: 50px;
+    width: 40px;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(233, 227, 227);
+}
+.inputCandidatos {
+    background-color: yellow;
+    height: 20px;
+    border: hidden;
+}
+.resultadoVotos {
+    position: absolute;
+    left: 140vh;
+    top: 80vh;
+    font-size: 10px;
+}
+img#foto {
+    height: 20vh;
+    width: 159px;
+
+}

@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+	padding: 0;
+	border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: gray;
+}
+.brasao {
+    position: absolute;
+    display: flex;
+    height: 80px;
+    top: 38.4rem;
+    left: 24.3rem;
+}
+p#fim {
+    font-size: 170px;
+    display: flex;
+    position: absolute;
+    left: 12rem;
+}
+
+.corpoUrna {
+    position: absolute;
+    width: 93rem;
+    height: 43.75rem;
+    left: 12rem;
+    top: 10.5rem;
+    background: #dad8d8;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+.telaUrna {
+    position: absolute;
+    width: 43.9375rem;
+    height: 34.875rem;
+    left: 18rem;
+    top: 14rem;
+    background-color: white;
+    border: 3px solid #302f2f;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px rgb(202, 201, 201);
+}
+.tecladoUrna {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 29rem;
+    height: 36rem;
+    left: 72rem;
+    top: 14rem;
+    background: #000000;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.telaCandidato_1 {
+    position: absolute;
+    width: 10rem;
+    height: 12.25rem;
+    left: 50rem;
+    top: 18rem;
+}
+
+.idCandidato {
+    position: absolute;
+    top: 30rem;
+    left: 20rem;
+    font-size: 23px
+}
+.presidente {
+    display: flex;
+    position: absolute;
+    top: 3.2rem;
+    left: 16.2rem;
+    font-size: 35px;
+
+}
+.seuVoto {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    font-size: 40px;
+}
+.idPrefeito {
+    
+    position: absolute;
+    top: 4rem;
+    left: 14rem;
+    font-size: 30px;
+    
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 40px;
+    height: 45%;
+    align-items: center; 
+    
+}
+.grid-item {
+    justify-content: center;
+    display: flex;   
+}
+.grid_0 {
+    display: flex;
+    position: absolute;
+    left: 11.2rem;
+}
+.btn_0 {
+    background: rgb(59, 58, 58);
+    color: whitesmoke;
+    font-size: 2rem;
+    width: 6.5rem;
+    height: 4rem;
+    border: 1px solid #4b4a4a;
+    border-radius: 5px;
+}
+.btn-numerico {
+    background: rgb(59, 58, 58);
+    color: whitesmoke;
+    font-size: 2rem;
+    width: 6.5rem;
+    height: 4rem;
+    border: 1px solid #4b4a4a;
+    border-radius: 5px;
+    padding: 0px;
+    margin: 12px;
+    
+}
+.grid-containe {
+    display: grid;
+    position: absolute;
+    grid-template-columns: auto auto auto;
+    top: 28rem;
+    left: 3rem; 
+    padding: 0px;
+    height: 10%;
+    margin: 0px;
+        
+}
+.btn_confirma {
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    position: absolute;
+    left: 340px;
+    top: 425px;
+    width: 100px;
+    height: 100px;
+
+    
+    
+}
+.btn_acoes {
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    margin: 8px;
+    width: 7rem;
+    height: 4rem;
+    
+}
+div#linha {
+    margin: 0;
+    padding: 0;
+    border-style: groove;
+    position: absolute;
+    top: 27rem;
+    width: 43.5rem;
+    height: 1px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+}
+div#legenda {
+    position: absolute;
+    display: inline;
+    top: 27rem;
+    left: 5px;
+    
+    
+}
+input#confirma {
+    background-color: green;
+}
+input#branco {
+    background-color: honeydew;
+}
+input#corrige {
+    background-color: red;
+}
+.displayVoto {
+    display: flex;
+    position: absolute;
+    left: 18rem;
+    top: 9rem;
+}
+.displayVoto input {
+    border-style: groove;
+    height: 50px;
+    width: 40px;
+    font-size: 40px;
+    text-align: center;
+    background-color:white;
+    
+}
+.inputCandidatos {
+    background-color: yellow;
+    height: 20px;
+    border: hidden;
+}
+.resultadoVotos {
+    position: absolute;
+    left: 140vh;
+    top: 80vh;
+    font-size: 10px;
+}
+img#foto {
+    height: 12.5rem;
+    width: 9.9375rem;
+}
+a#result {
+    position: absolute;
+    display: flex;
+    left: 85rem;
+    top: 40rem;
+}
+
+/* PAGIA RESULTADO */
+
+.container-result {
+    text-align: center;
+    border: black solid;
+    position: absolute;
+    left: 40rem;
+    top: 20rem;
+    width: 40rem;
+    height: 20rem;
+    background: rgb(223, 219, 219);
+    border-radius: 30px;
+}
+.result {
+    align-items: center;
+    position: relative;
+    top: 5rem;
+}
